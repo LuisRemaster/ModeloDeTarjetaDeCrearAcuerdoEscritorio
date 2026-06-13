@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import { Dashboard } from "./components/dashboard/Dashboard";
-import { TenVariants } from "./components/ten/TenVariants";
+import { ForgeVariants } from "./components/ten/ForgeVariants";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: TenVariants,
+    Component: ForgeVariants,
   },
   {
     path: "/dashboard",
